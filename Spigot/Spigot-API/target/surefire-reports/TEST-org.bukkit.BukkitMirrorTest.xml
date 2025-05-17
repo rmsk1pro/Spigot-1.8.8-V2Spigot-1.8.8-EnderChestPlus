@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.bukkit.BukkitMirrorTest" time="0.055" tests="485" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Rafael\Desktop\Spigot-1.8.8-V2-main\Spigot\Spigot-API\target\test-classes;C:\Users\Rafael\Desktop\Spigot-1.8.8-V2-main\Spigot\Spigot-API\target\classes;C:\Users\Rafael\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Rafael\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Rafael\.m2\repository\com\google\guava\guava\17.0\guava-17.0.jar;C:\Users\Rafael\.m2\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Users\Rafael\.m2\repository\org\avaje\ebean\2.8.1\ebean-2.8.1.jar;C:\Users\Rafael\.m2\repository\javax\persistence\persistence-api\1.0\persistence-api-1.0.jar;C:\Users\Rafael\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;C:\Users\Rafael\.m2\repository\net\md-5\bungeecord-chat\1.8-SNAPSHOT\bungeecord-chat-1.8-SNAPSHOT.jar;C:\Users\Rafael\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Rafael\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Rafael\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_202\bin"/>
+    <property name="sun.java.command" value="C:\Users\Rafael\AppData\Local\Temp\surefire2012668066229523118\surefirebooter-20250517100709722_3.jar C:\Users\Rafael\AppData\Local\Temp\surefire2012668066229523118 2025-05-17T10-07-09_549-jvmRun1 surefire-20250517100709722_1tmp surefire_0-20250517100709722_2tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Rafael\Desktop\Spigot-1.8.8-V2-main\Spigot\Spigot-API\target\test-classes;C:\Users\Rafael\Desktop\Spigot-1.8.8-V2-main\Spigot\Spigot-API\target\classes;C:\Users\Rafael\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Rafael\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Rafael\.m2\repository\com\google\guava\guava\17.0\guava-17.0.jar;C:\Users\Rafael\.m2\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Users\Rafael\.m2\repository\org\avaje\ebean\2.8.1\ebean-2.8.1.jar;C:\Users\Rafael\.m2\repository\javax\persistence\persistence-api\1.0\persistence-api-1.0.jar;C:\Users\Rafael\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;C:\Users\Rafael\.m2\repository\net\md-5\bungeecord-chat\1.8-SNAPSHOT\bungeecord-chat-1.8-SNAPSHOT.jar;C:\Users\Rafael\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Rafael\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Rafael\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Rafael"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_202"/>
+    <property name="basedir" value="C:\Users\Rafael\Desktop\Spigot-1.8.8-V2-main\Spigot\Spigot-API"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Rafael\AppData\Local\Temp\surefire2012668066229523118\surefirebooter-20250517100709722_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_202\lib\resources.jar;C:\Program Files\Java\jre1.8.0_202\lib\rt.jar;C:\Program Files\Java\jre1.8.0_202\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_202\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_202\lib\jce.jar;C:\Program Files\Java\jre1.8.0_202\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_202\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_202\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="Rafael"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_202\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Rafael\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Rafael\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="C:\Users\Rafael\Desktop\Spigot-1.8.8-V2-main\Spigot\Spigot-API"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Rafael\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Rafael\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Git\cmd;C:\Users\Rafael\AppData\Local\Microsoft\WindowsApps;C:\Users\Rafael\AppData\Local\GitHubDesktop\bin;C:\apache-maven-3.9.9-bin\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_202\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="isStatic[0: void org.bukkit.Server.shutdown{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[0: void org.bukkit.Server.shutdown{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[0: void org.bukkit.Server.shutdown{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[0: void org.bukkit.Server.shutdown{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[0: void org.bukkit.Server.shutdown{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[1: java.lang.String org.bukkit.Server.getName{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[1: java.lang.String org.bukkit.Server.getName{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[1: java.lang.String org.bukkit.Server.getName{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[1: java.lang.String org.bukkit.Server.getName{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[1: java.lang.String org.bukkit.Server.getName{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[2: org.bukkit.UnsafeValues org.bukkit.Server.getUnsafe{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[2: org.bukkit.UnsafeValues org.bukkit.Server.getUnsafe{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[2: org.bukkit.UnsafeValues org.bukkit.Server.getUnsafe{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[2: org.bukkit.UnsafeValues org.bukkit.Server.getUnsafe{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[2: org.bukkit.UnsafeValues org.bukkit.Server.getUnsafe{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[3: int org.bukkit.Server.getPort{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[3: int org.bukkit.Server.getPort{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[3: int org.bukkit.Server.getPort{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[3: int org.bukkit.Server.getPort{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[3: int org.bukkit.Server.getPort{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[4: org.bukkit.map.MapView org.bukkit.Server.createMap{org.bukkit.World}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[4: org.bukkit.map.MapView org.bukkit.Server.createMap{org.bukkit.World}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[4: org.bukkit.map.MapView org.bukkit.Server.createMap{org.bukkit.World}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[4: org.bukkit.map.MapView org.bukkit.Server.createMap{org.bukkit.World}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[4: org.bukkit.map.MapView org.bukkit.Server.createMap{org.bukkit.World}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[5: org.bukkit.map.MapView org.bukkit.Server.getMap{short}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[5: org.bukkit.map.MapView org.bukkit.Server.getMap{short}]" classname="org.bukkit.BukkitMirrorTest" time="0.001"/>
+  <testcase name="parameterTypes[5: org.bukkit.map.MapView org.bukkit.Server.getMap{short}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[5: org.bukkit.map.MapView org.bukkit.Server.getMap{short}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[5: org.bukkit.map.MapView org.bukkit.Server.getMap{short}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[6: java.util.logging.Logger org.bukkit.Server.getLogger{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[6: java.util.logging.Logger org.bukkit.Server.getLogger{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[6: java.util.logging.Logger org.bukkit.Server.getLogger{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[6: java.util.logging.Logger org.bukkit.Server.getLogger{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[6: java.util.logging.Logger org.bukkit.Server.getLogger{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[7: void org.bukkit.Server.reload{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[7: void org.bukkit.Server.reload{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[7: void org.bukkit.Server.reload{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[7: void org.bukkit.Server.reload{}]" classname="org.bukkit.BukkitMirrorTest" time="0.002"/>
+  <testcase name="declaredException[7: void org.bukkit.Server.reload{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[8: java.lang.String org.bukkit.Server.getVersion{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[8: java.lang.String org.bukkit.Server.getVersion{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[8: java.lang.String org.bukkit.Server.getVersion{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[8: java.lang.String org.bukkit.Server.getVersion{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[8: java.lang.String org.bukkit.Server.getVersion{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[9: org.bukkit.OfflinePlayer org.bukkit.Server.getOfflinePlayer{java.util.UUID}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[9: org.bukkit.OfflinePlayer org.bukkit.Server.getOfflinePlayer{java.util.UUID}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[9: org.bukkit.OfflinePlayer org.bukkit.Server.getOfflinePlayer{java.util.UUID}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[9: org.bukkit.OfflinePlayer org.bukkit.Server.getOfflinePlayer{java.util.UUID}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[9: org.bukkit.OfflinePlayer org.bukkit.Server.getOfflinePlayer{java.util.UUID}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[10: org.bukkit.OfflinePlayer org.bukkit.Server.getOfflinePlayer{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[10: org.bukkit.OfflinePlayer org.bukkit.Server.getOfflinePlayer{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[10: org.bukkit.OfflinePlayer org.bukkit.Server.getOfflinePlayer{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[10: org.bukkit.OfflinePlayer org.bukkit.Server.getOfflinePlayer{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[10: org.bukkit.OfflinePlayer org.bukkit.Server.getOfflinePlayer{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.003"/>
+  <testcase name="isStatic[11: org.bukkit.plugin.ServicesManager org.bukkit.Server.getServicesManager{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[11: org.bukkit.plugin.ServicesManager org.bukkit.Server.getServicesManager{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[11: org.bukkit.plugin.ServicesManager org.bukkit.Server.getServicesManager{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[11: org.bukkit.plugin.ServicesManager org.bukkit.Server.getServicesManager{}]" classname="org.bukkit.BukkitMirrorTest" time="0.002"/>
+  <testcase name="declaredException[11: org.bukkit.plugin.ServicesManager org.bukkit.Server.getServicesManager{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[12: java.lang.String org.bukkit.Server.getShutdownMessage{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[12: java.lang.String org.bukkit.Server.getShutdownMessage{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[12: java.lang.String org.bukkit.Server.getShutdownMessage{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[12: java.lang.String org.bukkit.Server.getShutdownMessage{}]" classname="org.bukkit.BukkitMirrorTest" time="0.001"/>
+  <testcase name="declaredException[12: java.lang.String org.bukkit.Server.getShutdownMessage{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[13: org.bukkit.scoreboard.ScoreboardManager org.bukkit.Server.getScoreboardManager{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[13: org.bukkit.scoreboard.ScoreboardManager org.bukkit.Server.getScoreboardManager{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[13: org.bukkit.scoreboard.ScoreboardManager org.bukkit.Server.getScoreboardManager{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[13: org.bukkit.scoreboard.ScoreboardManager org.bukkit.Server.getScoreboardManager{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[13: org.bukkit.scoreboard.ScoreboardManager org.bukkit.Server.getScoreboardManager{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[14: java.util.Set&lt;org.bukkit.OfflinePlayer&gt; org.bukkit.Server.getWhitelistedPlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[14: java.util.Set&lt;org.bukkit.OfflinePlayer&gt; org.bukkit.Server.getWhitelistedPlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[14: java.util.Set&lt;org.bukkit.OfflinePlayer&gt; org.bukkit.Server.getWhitelistedPlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[14: java.util.Set&lt;org.bukkit.OfflinePlayer&gt; org.bukkit.Server.getWhitelistedPlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[14: java.util.Set&lt;org.bukkit.OfflinePlayer&gt; org.bukkit.Server.getWhitelistedPlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[15: boolean org.bukkit.Server.getGenerateStructures{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[15: boolean org.bukkit.Server.getGenerateStructures{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[15: boolean org.bukkit.Server.getGenerateStructures{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[15: boolean org.bukkit.Server.getGenerateStructures{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[15: boolean org.bukkit.Server.getGenerateStructures{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[16: org.bukkit.OfflinePlayer[] org.bukkit.Server.getOfflinePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[16: org.bukkit.OfflinePlayer[] org.bukkit.Server.getOfflinePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[16: org.bukkit.OfflinePlayer[] org.bukkit.Server.getOfflinePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[16: org.bukkit.OfflinePlayer[] org.bukkit.Server.getOfflinePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[16: org.bukkit.OfflinePlayer[] org.bukkit.Server.getOfflinePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[17: org.bukkit.entity.Player[] org.bukkit.Server._INVALID_getOnlinePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[17: org.bukkit.entity.Player[] org.bukkit.Server._INVALID_getOnlinePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[17: org.bukkit.entity.Player[] org.bukkit.Server._INVALID_getOnlinePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[17: org.bukkit.entity.Player[] org.bukkit.Server._INVALID_getOnlinePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[17: org.bukkit.entity.Player[] org.bukkit.Server._INVALID_getOnlinePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[18: java.io.File org.bukkit.Server.getUpdateFolderFile{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[18: java.io.File org.bukkit.Server.getUpdateFolderFile{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[18: java.io.File org.bukkit.Server.getUpdateFolderFile{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[18: java.io.File org.bukkit.Server.getUpdateFolderFile{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[18: java.io.File org.bukkit.Server.getUpdateFolderFile{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[19: long org.bukkit.Server.getConnectionThrottle{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[19: long org.bukkit.Server.getConnectionThrottle{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[19: long org.bukkit.Server.getConnectionThrottle{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[19: long org.bukkit.Server.getConnectionThrottle{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[19: long org.bukkit.Server.getConnectionThrottle{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[20: int org.bukkit.Server.getTicksPerAnimalSpawns{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[20: int org.bukkit.Server.getTicksPerAnimalSpawns{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[20: int org.bukkit.Server.getTicksPerAnimalSpawns{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[20: int org.bukkit.Server.getTicksPerAnimalSpawns{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[20: int org.bukkit.Server.getTicksPerAnimalSpawns{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[21: java.util.Map&lt;java.lang.String, java.lang.String[]&gt; org.bukkit.Server.getCommandAliases{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[21: java.util.Map&lt;java.lang.String, java.lang.String[]&gt; org.bukkit.Server.getCommandAliases{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[21: java.util.Map&lt;java.lang.String, java.lang.String[]&gt; org.bukkit.Server.getCommandAliases{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[21: java.util.Map&lt;java.lang.String, java.lang.String[]&gt; org.bukkit.Server.getCommandAliases{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[21: java.util.Map&lt;java.lang.String, java.lang.String[]&gt; org.bukkit.Server.getCommandAliases{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[22: boolean org.bukkit.Server.useExactLoginLocation{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[22: boolean org.bukkit.Server.useExactLoginLocation{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[22: boolean org.bukkit.Server.useExactLoginLocation{}]" classname="org.bukkit.BukkitMirrorTest" time="0.001"/>
+  <testcase name="returnType[22: boolean org.bukkit.Server.useExactLoginLocation{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[22: boolean org.bukkit.Server.useExactLoginLocation{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[23: org.bukkit.GameMode org.bukkit.Server.getDefaultGameMode{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[23: org.bukkit.GameMode org.bukkit.Server.getDefaultGameMode{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[23: org.bukkit.GameMode org.bukkit.Server.getDefaultGameMode{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[23: org.bukkit.GameMode org.bukkit.Server.getDefaultGameMode{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[23: org.bukkit.GameMode org.bukkit.Server.getDefaultGameMode{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[24: java.io.File org.bukkit.Server.getWorldContainer{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[24: java.io.File org.bukkit.Server.getWorldContainer{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[24: java.io.File org.bukkit.Server.getWorldContainer{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[24: java.io.File org.bukkit.Server.getWorldContainer{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[24: java.io.File org.bukkit.Server.getWorldContainer{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[25: void org.bukkit.Server.configureDbConfig{com.avaje.ebean.config.ServerConfig}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[25: void org.bukkit.Server.configureDbConfig{com.avaje.ebean.config.ServerConfig}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[25: void org.bukkit.Server.configureDbConfig{com.avaje.ebean.config.ServerConfig}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[25: void org.bukkit.Server.configureDbConfig{com.avaje.ebean.config.ServerConfig}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[25: void org.bukkit.Server.configureDbConfig{com.avaje.ebean.config.ServerConfig}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[26: void org.bukkit.Server.setDefaultGameMode{org.bukkit.GameMode}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[26: void org.bukkit.Server.setDefaultGameMode{org.bukkit.GameMode}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[26: void org.bukkit.Server.setDefaultGameMode{org.bukkit.GameMode}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[26: void org.bukkit.Server.setDefaultGameMode{org.bukkit.GameMode}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[26: void org.bukkit.Server.setDefaultGameMode{org.bukkit.GameMode}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[27: int org.bukkit.Server.getMonsterSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[27: int org.bukkit.Server.getMonsterSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[27: int org.bukkit.Server.getMonsterSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[27: int org.bukkit.Server.getMonsterSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[27: int org.bukkit.Server.getMonsterSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[28: int org.bukkit.Server.getAnimalSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[28: int org.bukkit.Server.getAnimalSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[28: int org.bukkit.Server.getAnimalSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[28: int org.bukkit.Server.getAnimalSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[28: int org.bukkit.Server.getAnimalSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[29: int org.bukkit.Server.getTicksPerMonsterSpawns{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[29: int org.bukkit.Server.getTicksPerMonsterSpawns{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[29: int org.bukkit.Server.getTicksPerMonsterSpawns{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[29: int org.bukkit.Server.getTicksPerMonsterSpawns{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[29: int org.bukkit.Server.getTicksPerMonsterSpawns{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[30: int org.bukkit.Server.getWaterAnimalSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[30: int org.bukkit.Server.getWaterAnimalSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.001"/>
+  <testcase name="parameterTypes[30: int org.bukkit.Server.getWaterAnimalSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[30: int org.bukkit.Server.getWaterAnimalSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[30: int org.bukkit.Server.getWaterAnimalSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[31: int org.bukkit.Server.getAmbientSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[31: int org.bukkit.Server.getAmbientSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[31: int org.bukkit.Server.getAmbientSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[31: int org.bukkit.Server.getAmbientSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[31: int org.bukkit.Server.getAmbientSpawnLimit{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[32: boolean org.bukkit.Server.getAllowFlight{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[32: boolean org.bukkit.Server.getAllowFlight{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[32: boolean org.bukkit.Server.getAllowFlight{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[32: boolean org.bukkit.Server.getAllowFlight{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[32: boolean org.bukkit.Server.getAllowFlight{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[33: org.bukkit.Server$Spigot org.bukkit.Server.spigot{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[33: org.bukkit.Server$Spigot org.bukkit.Server.spigot{}]" classname="org.bukkit.BukkitMirrorTest" time="0.001"/>
+  <testcase name="parameterTypes[33: org.bukkit.Server$Spigot org.bukkit.Server.spigot{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[33: org.bukkit.Server$Spigot org.bukkit.Server.spigot{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[33: org.bukkit.Server$Spigot org.bukkit.Server.spigot{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[34: org.bukkit.World org.bukkit.Server.getWorld{java.util.UUID}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[34: org.bukkit.World org.bukkit.Server.getWorld{java.util.UUID}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[34: org.bukkit.World org.bukkit.Server.getWorld{java.util.UUID}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[34: org.bukkit.World org.bukkit.Server.getWorld{java.util.UUID}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[34: org.bukkit.World org.bukkit.Server.getWorld{java.util.UUID}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[35: org.bukkit.World org.bukkit.Server.getWorld{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[35: org.bukkit.World org.bukkit.Server.getWorld{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[35: org.bukkit.World org.bukkit.Server.getWorld{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[35: org.bukkit.World org.bukkit.Server.getWorld{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[35: org.bukkit.World org.bukkit.Server.getWorld{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[36: org.bukkit.entity.Player org.bukkit.Server.getPlayer{java.util.UUID}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[36: org.bukkit.entity.Player org.bukkit.Server.getPlayer{java.util.UUID}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[36: org.bukkit.entity.Player org.bukkit.Server.getPlayer{java.util.UUID}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[36: org.bukkit.entity.Player org.bukkit.Server.getPlayer{java.util.UUID}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[36: org.bukkit.entity.Player org.bukkit.Server.getPlayer{java.util.UUID}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[37: org.bukkit.entity.Player org.bukkit.Server.getPlayer{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[37: org.bukkit.entity.Player org.bukkit.Server.getPlayer{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[37: org.bukkit.entity.Player org.bukkit.Server.getPlayer{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[37: org.bukkit.entity.Player org.bukkit.Server.getPlayer{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[37: org.bukkit.entity.Player org.bukkit.Server.getPlayer{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[38: org.bukkit.plugin.PluginManager org.bukkit.Server.getPluginManager{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[38: org.bukkit.plugin.PluginManager org.bukkit.Server.getPluginManager{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[38: org.bukkit.plugin.PluginManager org.bukkit.Server.getPluginManager{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[38: org.bukkit.plugin.PluginManager org.bukkit.Server.getPluginManager{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[38: org.bukkit.plugin.PluginManager org.bukkit.Server.getPluginManager{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[39: java.util.Collection&lt;? extends org.bukkit.entity.Player&gt; org.bukkit.Server.getOnlinePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[39: java.util.Collection&lt;? extends org.bukkit.entity.Player&gt; org.bukkit.Server.getOnlinePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.001"/>
+  <testcase name="parameterTypes[39: java.util.Collection&lt;? extends org.bukkit.entity.Player&gt; org.bukkit.Server.getOnlinePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[39: java.util.Collection&lt;? extends org.bukkit.entity.Player&gt; org.bukkit.Server.getOnlinePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[39: java.util.Collection&lt;? extends org.bukkit.entity.Player&gt; org.bukkit.Server.getOnlinePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[40: org.bukkit.generator.ChunkGenerator$ChunkData org.bukkit.Server.createChunkData{org.bukkit.World}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[40: org.bukkit.generator.ChunkGenerator$ChunkData org.bukkit.Server.createChunkData{org.bukkit.World}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[40: org.bukkit.generator.ChunkGenerator$ChunkData org.bukkit.Server.createChunkData{org.bukkit.World}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[40: org.bukkit.generator.ChunkGenerator$ChunkData org.bukkit.Server.createChunkData{org.bukkit.World}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[40: org.bukkit.generator.ChunkGenerator$ChunkData org.bukkit.Server.createChunkData{org.bukkit.World}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[41: org.bukkit.inventory.ItemFactory org.bukkit.Server.getItemFactory{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[41: org.bukkit.inventory.ItemFactory org.bukkit.Server.getItemFactory{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[41: org.bukkit.inventory.ItemFactory org.bukkit.Server.getItemFactory{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[41: org.bukkit.inventory.ItemFactory org.bukkit.Server.getItemFactory{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[41: org.bukkit.inventory.ItemFactory org.bukkit.Server.getItemFactory{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[42: org.bukkit.util.CachedServerIcon org.bukkit.Server.getServerIcon{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[42: org.bukkit.util.CachedServerIcon org.bukkit.Server.getServerIcon{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[42: org.bukkit.util.CachedServerIcon org.bukkit.Server.getServerIcon{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[42: org.bukkit.util.CachedServerIcon org.bukkit.Server.getServerIcon{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[42: org.bukkit.util.CachedServerIcon org.bukkit.Server.getServerIcon{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[43: void org.bukkit.Server.setIdleTimeout{int}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[43: void org.bukkit.Server.setIdleTimeout{int}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[43: void org.bukkit.Server.setIdleTimeout{int}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[43: void org.bukkit.Server.setIdleTimeout{int}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[43: void org.bukkit.Server.setIdleTimeout{int}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[44: int org.bukkit.Server.getIdleTimeout{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[44: int org.bukkit.Server.getIdleTimeout{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[44: int org.bukkit.Server.getIdleTimeout{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[44: int org.bukkit.Server.getIdleTimeout{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[44: int org.bukkit.Server.getIdleTimeout{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[45: org.bukkit.util.CachedServerIcon org.bukkit.Server.loadServerIcon{java.io.File} throws java.lang.IllegalArgumentException,java.lang.Exception]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[45: org.bukkit.util.CachedServerIcon org.bukkit.Server.loadServerIcon{java.io.File} throws java.lang.IllegalArgumentException,java.lang.Exception]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[45: org.bukkit.util.CachedServerIcon org.bukkit.Server.loadServerIcon{java.io.File} throws java.lang.IllegalArgumentException,java.lang.Exception]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[45: org.bukkit.util.CachedServerIcon org.bukkit.Server.loadServerIcon{java.io.File} throws java.lang.IllegalArgumentException,java.lang.Exception]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[45: org.bukkit.util.CachedServerIcon org.bukkit.Server.loadServerIcon{java.io.File} throws java.lang.IllegalArgumentException,java.lang.Exception]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[46: org.bukkit.util.CachedServerIcon org.bukkit.Server.loadServerIcon{java.awt.image.BufferedImage} throws java.lang.IllegalArgumentException,java.lang.Exception]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[46: org.bukkit.util.CachedServerIcon org.bukkit.Server.loadServerIcon{java.awt.image.BufferedImage} throws java.lang.IllegalArgumentException,java.lang.Exception]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[46: org.bukkit.util.CachedServerIcon org.bukkit.Server.loadServerIcon{java.awt.image.BufferedImage} throws java.lang.IllegalArgumentException,java.lang.Exception]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[46: org.bukkit.util.CachedServerIcon org.bukkit.Server.loadServerIcon{java.awt.image.BufferedImage} throws java.lang.IllegalArgumentException,java.lang.Exception]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[46: org.bukkit.util.CachedServerIcon org.bukkit.Server.loadServerIcon{java.awt.image.BufferedImage} throws java.lang.IllegalArgumentException,java.lang.Exception]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[47: org.bukkit.Warning$WarningState org.bukkit.Server.getWarningState{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[47: org.bukkit.Warning$WarningState org.bukkit.Server.getWarningState{}]" classname="org.bukkit.BukkitMirrorTest" time="0.001"/>
+  <testcase name="parameterTypes[47: org.bukkit.Warning$WarningState org.bukkit.Server.getWarningState{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[47: org.bukkit.Warning$WarningState org.bukkit.Server.getWarningState{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[47: org.bukkit.Warning$WarningState org.bukkit.Server.getWarningState{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[48: org.bukkit.help.HelpMap org.bukkit.Server.getHelpMap{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[48: org.bukkit.help.HelpMap org.bukkit.Server.getHelpMap{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[48: org.bukkit.help.HelpMap org.bukkit.Server.getHelpMap{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[48: org.bukkit.help.HelpMap org.bukkit.Server.getHelpMap{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[48: org.bukkit.help.HelpMap org.bukkit.Server.getHelpMap{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[49: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,org.bukkit.event.inventory.InventoryType,java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[49: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,org.bukkit.event.inventory.InventoryType,java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[49: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,org.bukkit.event.inventory.InventoryType,java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[49: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,org.bukkit.event.inventory.InventoryType,java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[49: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,org.bukkit.event.inventory.InventoryType,java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[50: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,int,java.lang.String} throws java.lang.IllegalArgumentException]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[50: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,int,java.lang.String} throws java.lang.IllegalArgumentException]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[50: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,int,java.lang.String} throws java.lang.IllegalArgumentException]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[50: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,int,java.lang.String} throws java.lang.IllegalArgumentException]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[50: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,int,java.lang.String} throws java.lang.IllegalArgumentException]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[51: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,int} throws java.lang.IllegalArgumentException]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[51: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,int} throws java.lang.IllegalArgumentException]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[51: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,int} throws java.lang.IllegalArgumentException]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[51: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,int} throws java.lang.IllegalArgumentException]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[51: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,int} throws java.lang.IllegalArgumentException]" classname="org.bukkit.BukkitMirrorTest" time="0.001"/>
+  <testcase name="isStatic[52: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,org.bukkit.event.inventory.InventoryType}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[52: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,org.bukkit.event.inventory.InventoryType}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[52: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,org.bukkit.event.inventory.InventoryType}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[52: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,org.bukkit.event.inventory.InventoryType}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[52: org.bukkit.inventory.Inventory org.bukkit.Server.createInventory{org.bukkit.inventory.InventoryHolder,org.bukkit.event.inventory.InventoryType}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[53: boolean org.bukkit.Server.isPrimaryThread{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[53: boolean org.bukkit.Server.isPrimaryThread{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[53: boolean org.bukkit.Server.isPrimaryThread{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[53: boolean org.bukkit.Server.isPrimaryThread{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[53: boolean org.bukkit.Server.isPrimaryThread{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[54: boolean org.bukkit.Server.getAllowEnd{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[54: boolean org.bukkit.Server.getAllowEnd{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[54: boolean org.bukkit.Server.getAllowEnd{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[54: boolean org.bukkit.Server.getAllowEnd{}]" classname="org.bukkit.BukkitMirrorTest" time="0.001"/>
+  <testcase name="declaredException[54: boolean org.bukkit.Server.getAllowEnd{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[55: org.bukkit.scheduler.BukkitScheduler org.bukkit.Server.getScheduler{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[55: org.bukkit.scheduler.BukkitScheduler org.bukkit.Server.getScheduler{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[55: org.bukkit.scheduler.BukkitScheduler org.bukkit.Server.getScheduler{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[55: org.bukkit.scheduler.BukkitScheduler org.bukkit.Server.getScheduler{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[55: org.bukkit.scheduler.BukkitScheduler org.bukkit.Server.getScheduler{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[56: org.bukkit.entity.Player org.bukkit.Server.getPlayerExact{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[56: org.bukkit.entity.Player org.bukkit.Server.getPlayerExact{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[56: org.bukkit.entity.Player org.bukkit.Server.getPlayerExact{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[56: org.bukkit.entity.Player org.bukkit.Server.getPlayerExact{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[56: org.bukkit.entity.Player org.bukkit.Server.getPlayerExact{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[57: void org.bukkit.Server.setSpawnRadius{int}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[57: void org.bukkit.Server.setSpawnRadius{int}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[57: void org.bukkit.Server.setSpawnRadius{int}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[57: void org.bukkit.Server.setSpawnRadius{int}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[57: void org.bukkit.Server.setSpawnRadius{int}]" classname="org.bukkit.BukkitMirrorTest" time="0.001"/>
+  <testcase name="isStatic[58: boolean org.bukkit.Server.hasWhitelist{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[58: boolean org.bukkit.Server.hasWhitelist{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[58: boolean org.bukkit.Server.hasWhitelist{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[58: boolean org.bukkit.Server.hasWhitelist{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[58: boolean org.bukkit.Server.hasWhitelist{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[59: java.util.List&lt;org.bukkit.entity.Player&gt; org.bukkit.Server.matchPlayer{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[59: java.util.List&lt;org.bukkit.entity.Player&gt; org.bukkit.Server.matchPlayer{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[59: java.util.List&lt;org.bukkit.entity.Player&gt; org.bukkit.Server.matchPlayer{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[59: java.util.List&lt;org.bukkit.entity.Player&gt; org.bukkit.Server.matchPlayer{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[59: java.util.List&lt;org.bukkit.entity.Player&gt; org.bukkit.Server.matchPlayer{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.001"/>
+  <testcase name="isStatic[60: void org.bukkit.Server.unbanIP{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[60: void org.bukkit.Server.unbanIP{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[60: void org.bukkit.Server.unbanIP{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[60: void org.bukkit.Server.unbanIP{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[60: void org.bukkit.Server.unbanIP{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[61: java.lang.String org.bukkit.Server.getBukkitVersion{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[61: java.lang.String org.bukkit.Server.getBukkitVersion{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[61: java.lang.String org.bukkit.Server.getBukkitVersion{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[61: java.lang.String org.bukkit.Server.getBukkitVersion{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[61: java.lang.String org.bukkit.Server.getBukkitVersion{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[62: void org.bukkit.Server.clearRecipes{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[62: void org.bukkit.Server.clearRecipes{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[62: void org.bukkit.Server.clearRecipes{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[62: void org.bukkit.Server.clearRecipes{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[62: void org.bukkit.Server.clearRecipes{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[63: org.bukkit.command.PluginCommand org.bukkit.Server.getPluginCommand{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[63: org.bukkit.command.PluginCommand org.bukkit.Server.getPluginCommand{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[63: org.bukkit.command.PluginCommand org.bukkit.Server.getPluginCommand{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[63: org.bukkit.command.PluginCommand org.bukkit.Server.getPluginCommand{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[63: org.bukkit.command.PluginCommand org.bukkit.Server.getPluginCommand{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[64: int org.bukkit.Server.getViewDistance{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[64: int org.bukkit.Server.getViewDistance{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[64: int org.bukkit.Server.getViewDistance{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[64: int org.bukkit.Server.getViewDistance{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[64: int org.bukkit.Server.getViewDistance{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[65: java.lang.String org.bukkit.Server.getMotd{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[65: java.lang.String org.bukkit.Server.getMotd{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[65: java.lang.String org.bukkit.Server.getMotd{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[65: java.lang.String org.bukkit.Server.getMotd{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[65: java.lang.String org.bukkit.Server.getMotd{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[66: java.lang.String org.bukkit.Server.getServerId{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[66: java.lang.String org.bukkit.Server.getServerId{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[66: java.lang.String org.bukkit.Server.getServerId{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[66: java.lang.String org.bukkit.Server.getServerId{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[66: java.lang.String org.bukkit.Server.getServerId{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[67: java.util.List&lt;org.bukkit.World&gt; org.bukkit.Server.getWorlds{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[67: java.util.List&lt;org.bukkit.World&gt; org.bukkit.Server.getWorlds{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[67: java.util.List&lt;org.bukkit.World&gt; org.bukkit.Server.getWorlds{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[67: java.util.List&lt;org.bukkit.World&gt; org.bukkit.Server.getWorlds{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[67: java.util.List&lt;org.bukkit.World&gt; org.bukkit.Server.getWorlds{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[68: org.bukkit.World org.bukkit.Server.createWorld{org.bukkit.WorldCreator}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[68: org.bukkit.World org.bukkit.Server.createWorld{org.bukkit.WorldCreator}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[68: org.bukkit.World org.bukkit.Server.createWorld{org.bukkit.WorldCreator}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[68: org.bukkit.World org.bukkit.Server.createWorld{org.bukkit.WorldCreator}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[68: org.bukkit.World org.bukkit.Server.createWorld{org.bukkit.WorldCreator}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[69: java.lang.String org.bukkit.Server.getServerName{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[69: java.lang.String org.bukkit.Server.getServerName{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[69: java.lang.String org.bukkit.Server.getServerName{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[69: java.lang.String org.bukkit.Server.getServerName{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[69: java.lang.String org.bukkit.Server.getServerName{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[70: void org.bukkit.Server.reloadWhitelist{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[70: void org.bukkit.Server.reloadWhitelist{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[70: void org.bukkit.Server.reloadWhitelist{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[70: void org.bukkit.Server.reloadWhitelist{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[70: void org.bukkit.Server.reloadWhitelist{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[71: boolean org.bukkit.Server.getAllowNether{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[71: boolean org.bukkit.Server.getAllowNether{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[71: boolean org.bukkit.Server.getAllowNether{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[71: boolean org.bukkit.Server.getAllowNether{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[71: boolean org.bukkit.Server.getAllowNether{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[72: java.lang.String org.bukkit.Server.getUpdateFolder{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[72: java.lang.String org.bukkit.Server.getUpdateFolder{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[72: java.lang.String org.bukkit.Server.getUpdateFolder{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[72: java.lang.String org.bukkit.Server.getUpdateFolder{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[72: java.lang.String org.bukkit.Server.getUpdateFolder{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[73: void org.bukkit.Server.setWhitelist{boolean}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[73: void org.bukkit.Server.setWhitelist{boolean}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[73: void org.bukkit.Server.setWhitelist{boolean}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[73: void org.bukkit.Server.setWhitelist{boolean}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[73: void org.bukkit.Server.setWhitelist{boolean}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[74: java.lang.String org.bukkit.Server.getIp{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[74: java.lang.String org.bukkit.Server.getIp{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[74: java.lang.String org.bukkit.Server.getIp{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[74: java.lang.String org.bukkit.Server.getIp{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[74: java.lang.String org.bukkit.Server.getIp{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[75: boolean org.bukkit.Server.unloadWorld{org.bukkit.World,boolean}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[75: boolean org.bukkit.Server.unloadWorld{org.bukkit.World,boolean}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[75: boolean org.bukkit.Server.unloadWorld{org.bukkit.World,boolean}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[75: boolean org.bukkit.Server.unloadWorld{org.bukkit.World,boolean}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[75: boolean org.bukkit.Server.unloadWorld{org.bukkit.World,boolean}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[76: boolean org.bukkit.Server.unloadWorld{java.lang.String,boolean}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[76: boolean org.bukkit.Server.unloadWorld{java.lang.String,boolean}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[76: boolean org.bukkit.Server.unloadWorld{java.lang.String,boolean}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[76: boolean org.bukkit.Server.unloadWorld{java.lang.String,boolean}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[76: boolean org.bukkit.Server.unloadWorld{java.lang.String,boolean}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[77: boolean org.bukkit.Server.dispatchCommand{org.bukkit.command.CommandSender,java.lang.String} throws org.bukkit.command.CommandException]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[77: boolean org.bukkit.Server.dispatchCommand{org.bukkit.command.CommandSender,java.lang.String} throws org.bukkit.command.CommandException]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[77: boolean org.bukkit.Server.dispatchCommand{org.bukkit.command.CommandSender,java.lang.String} throws org.bukkit.command.CommandException]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[77: boolean org.bukkit.Server.dispatchCommand{org.bukkit.command.CommandSender,java.lang.String} throws org.bukkit.command.CommandException]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[77: boolean org.bukkit.Server.dispatchCommand{org.bukkit.command.CommandSender,java.lang.String} throws org.bukkit.command.CommandException]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[78: boolean org.bukkit.Server.addRecipe{org.bukkit.inventory.Recipe}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[78: boolean org.bukkit.Server.addRecipe{org.bukkit.inventory.Recipe}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[78: boolean org.bukkit.Server.addRecipe{org.bukkit.inventory.Recipe}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[78: boolean org.bukkit.Server.addRecipe{org.bukkit.inventory.Recipe}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[78: boolean org.bukkit.Server.addRecipe{org.bukkit.inventory.Recipe}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[79: java.util.List&lt;org.bukkit.inventory.Recipe&gt; org.bukkit.Server.getRecipesFor{org.bukkit.inventory.ItemStack}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[79: java.util.List&lt;org.bukkit.inventory.Recipe&gt; org.bukkit.Server.getRecipesFor{org.bukkit.inventory.ItemStack}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[79: java.util.List&lt;org.bukkit.inventory.Recipe&gt; org.bukkit.Server.getRecipesFor{org.bukkit.inventory.ItemStack}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[79: java.util.List&lt;org.bukkit.inventory.Recipe&gt; org.bukkit.Server.getRecipesFor{org.bukkit.inventory.ItemStack}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[79: java.util.List&lt;org.bukkit.inventory.Recipe&gt; org.bukkit.Server.getRecipesFor{org.bukkit.inventory.ItemStack}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[80: java.util.Iterator&lt;org.bukkit.inventory.Recipe&gt; org.bukkit.Server.recipeIterator{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[80: java.util.Iterator&lt;org.bukkit.inventory.Recipe&gt; org.bukkit.Server.recipeIterator{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[80: java.util.Iterator&lt;org.bukkit.inventory.Recipe&gt; org.bukkit.Server.recipeIterator{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[80: java.util.Iterator&lt;org.bukkit.inventory.Recipe&gt; org.bukkit.Server.recipeIterator{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[80: java.util.Iterator&lt;org.bukkit.inventory.Recipe&gt; org.bukkit.Server.recipeIterator{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[81: void org.bukkit.Server.resetRecipes{}]" classname="org.bukkit.BukkitMirrorTest" time="0.001"/>
+  <testcase name="isDeprecated[81: void org.bukkit.Server.resetRecipes{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[81: void org.bukkit.Server.resetRecipes{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[81: void org.bukkit.Server.resetRecipes{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[81: void org.bukkit.Server.resetRecipes{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[82: boolean org.bukkit.Server.getOnlineMode{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[82: boolean org.bukkit.Server.getOnlineMode{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[82: boolean org.bukkit.Server.getOnlineMode{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[82: boolean org.bukkit.Server.getOnlineMode{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[82: boolean org.bukkit.Server.getOnlineMode{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[83: boolean org.bukkit.Server.isHardcore{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[83: boolean org.bukkit.Server.isHardcore{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[83: boolean org.bukkit.Server.isHardcore{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[83: boolean org.bukkit.Server.isHardcore{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[83: boolean org.bukkit.Server.isHardcore{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[84: java.util.Set&lt;java.lang.String&gt; org.bukkit.Server.getIPBans{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[84: java.util.Set&lt;java.lang.String&gt; org.bukkit.Server.getIPBans{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[84: java.util.Set&lt;java.lang.String&gt; org.bukkit.Server.getIPBans{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[84: java.util.Set&lt;java.lang.String&gt; org.bukkit.Server.getIPBans{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[84: java.util.Set&lt;java.lang.String&gt; org.bukkit.Server.getIPBans{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[85: void org.bukkit.Server.banIP{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[85: void org.bukkit.Server.banIP{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[85: void org.bukkit.Server.banIP{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[85: void org.bukkit.Server.banIP{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[85: void org.bukkit.Server.banIP{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[86: int org.bukkit.Server.broadcastMessage{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[86: int org.bukkit.Server.broadcastMessage{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[86: int org.bukkit.Server.broadcastMessage{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[86: int org.bukkit.Server.broadcastMessage{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[86: int org.bukkit.Server.broadcastMessage{java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[87: java.util.Set&lt;org.bukkit.OfflinePlayer&gt; org.bukkit.Server.getBannedPlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[87: java.util.Set&lt;org.bukkit.OfflinePlayer&gt; org.bukkit.Server.getBannedPlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[87: java.util.Set&lt;org.bukkit.OfflinePlayer&gt; org.bukkit.Server.getBannedPlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[87: java.util.Set&lt;org.bukkit.OfflinePlayer&gt; org.bukkit.Server.getBannedPlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[87: java.util.Set&lt;org.bukkit.OfflinePlayer&gt; org.bukkit.Server.getBannedPlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[88: org.bukkit.command.ConsoleCommandSender org.bukkit.Server.getConsoleSender{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[88: org.bukkit.command.ConsoleCommandSender org.bukkit.Server.getConsoleSender{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[88: org.bukkit.command.ConsoleCommandSender org.bukkit.Server.getConsoleSender{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[88: org.bukkit.command.ConsoleCommandSender org.bukkit.Server.getConsoleSender{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[88: org.bukkit.command.ConsoleCommandSender org.bukkit.Server.getConsoleSender{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[89: int org.bukkit.Server.getMaxPlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[89: int org.bukkit.Server.getMaxPlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[89: int org.bukkit.Server.getMaxPlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[89: int org.bukkit.Server.getMaxPlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[89: int org.bukkit.Server.getMaxPlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[90: int org.bukkit.Server.getSpawnRadius{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[90: int org.bukkit.Server.getSpawnRadius{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[90: int org.bukkit.Server.getSpawnRadius{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[90: int org.bukkit.Server.getSpawnRadius{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[90: int org.bukkit.Server.getSpawnRadius{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[91: void org.bukkit.Server.savePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[91: void org.bukkit.Server.savePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[91: void org.bukkit.Server.savePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[91: void org.bukkit.Server.savePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[91: void org.bukkit.Server.savePlayers{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[92: int org.bukkit.Server.broadcast{java.lang.String,java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[92: int org.bukkit.Server.broadcast{java.lang.String,java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[92: int org.bukkit.Server.broadcast{java.lang.String,java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[92: int org.bukkit.Server.broadcast{java.lang.String,java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[92: int org.bukkit.Server.broadcast{java.lang.String,java.lang.String}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[93: java.lang.String org.bukkit.Server.getWorldType{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[93: java.lang.String org.bukkit.Server.getWorldType{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[93: java.lang.String org.bukkit.Server.getWorldType{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[93: java.lang.String org.bukkit.Server.getWorldType{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[93: java.lang.String org.bukkit.Server.getWorldType{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[94: org.bukkit.BanList org.bukkit.Server.getBanList{org.bukkit.BanList$Type}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[94: org.bukkit.BanList org.bukkit.Server.getBanList{org.bukkit.BanList$Type}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[94: org.bukkit.BanList org.bukkit.Server.getBanList{org.bukkit.BanList$Type}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[94: org.bukkit.BanList org.bukkit.Server.getBanList{org.bukkit.BanList$Type}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[94: org.bukkit.BanList org.bukkit.Server.getBanList{org.bukkit.BanList$Type}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[95: java.util.Set&lt;org.bukkit.OfflinePlayer&gt; org.bukkit.Server.getOperators{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isDeprecated[95: java.util.Set&lt;org.bukkit.OfflinePlayer&gt; org.bukkit.Server.getOperators{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[95: java.util.Set&lt;org.bukkit.OfflinePlayer&gt; org.bukkit.Server.getOperators{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[95: java.util.Set&lt;org.bukkit.OfflinePlayer&gt; org.bukkit.Server.getOperators{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[95: java.util.Set&lt;org.bukkit.OfflinePlayer&gt; org.bukkit.Server.getOperators{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="isStatic[96: org.bukkit.plugin.messaging.Messenger org.bukkit.Server.getMessenger{}]" classname="org.bukkit.BukkitMirrorTest" time="0.001"/>
+  <testcase name="isDeprecated[96: org.bukkit.plugin.messaging.Messenger org.bukkit.Server.getMessenger{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="parameterTypes[96: org.bukkit.plugin.messaging.Messenger org.bukkit.Server.getMessenger{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="returnType[96: org.bukkit.plugin.messaging.Messenger org.bukkit.Server.getMessenger{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+  <testcase name="declaredException[96: org.bukkit.plugin.messaging.Messenger org.bukkit.Server.getMessenger{}]" classname="org.bukkit.BukkitMirrorTest" time="0.0"/>
+</testsuite>

@@ -1,0 +1,31 @@
+From 7c27a3a1e33c1864cf866b041875df9ad9e2fcf8 Mon Sep 17 00:00:00 2001
+From: Rafael Mendes Siqueira <rms-aps@hotmail.com>
+Date: Sat, 17 May 2025 10:04:10 -0300
+Subject: [PATCH] SaveCommand
+
+
+diff --git a/src/main/java/org/bukkit/command/defaults/SaveCommand.java b/src/main/java/org/bukkit/command/defaults/SaveCommand.java
+index d08d3ed0..2813a38d 100644
+--- a/src/main/java/org/bukkit/command/defaults/SaveCommand.java
++++ b/src/main/java/org/bukkit/command/defaults/SaveCommand.java
+@@ -23,7 +23,7 @@ public class SaveCommand extends VanillaCommand {
+     public boolean execute(CommandSender sender, String currentAlias, String[] args) {
+         if (!testPermission(sender)) return true;
+ 
+-        Command.broadcastCommandMessage(sender, "Forcing save..");
++        Command.broadcastCommandMessage(sender, "§7⏳ §eIniciando salvamento de dados...");
+ 
+         Bukkit.savePlayers();
+ 
+@@ -31,7 +31,7 @@ public class SaveCommand extends VanillaCommand {
+             world.save();
+         }
+ 
+-        Command.broadcastCommandMessage(sender, "Save complete.");
++        Command.broadcastCommandMessage(sender, "§a✅ Salvamento concluído com sucesso!");
+ 
+         return true;
+     }
+-- 
+2.49.0.windows.1
+

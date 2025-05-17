@@ -1,0 +1,22 @@
+From 58a4f00743ee5859e1616c1b61765dfb6609aca3 Mon Sep 17 00:00:00 2001
+From: Rafael Mendes Siqueira <rms-aps@hotmail.com>
+Date: Sat, 17 May 2025 09:25:11 -0300
+Subject: [PATCH] EnderChestDoble
+
+
+diff --git a/src/main/java/net/minecraft/server/InventoryEnderChest.java b/src/main/java/net/minecraft/server/InventoryEnderChest.java
+index 22c9b0b7..75bbbadf 100644
+--- a/src/main/java/net/minecraft/server/InventoryEnderChest.java
++++ b/src/main/java/net/minecraft/server/InventoryEnderChest.java
+@@ -45,7 +45,7 @@ public class InventoryEnderChest extends InventorySubcontainer {
+     // CraftBukkit end
+ 
+     public InventoryEnderChest() {
+-        super("container.enderchest", false, 27);
++        super("container.enderchest", false, 54);
+     }
+ 
+     public void a(TileEntityEnderChest tileentityenderchest) {
+-- 
+2.49.0.windows.1
+

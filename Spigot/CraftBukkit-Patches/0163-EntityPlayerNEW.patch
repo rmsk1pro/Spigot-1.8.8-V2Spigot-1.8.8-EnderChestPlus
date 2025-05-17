@@ -1,0 +1,50 @@
+From f659a698e0541d550544e06e429bcd23d711ec40 Mon Sep 17 00:00:00 2001
+From: Rafael Mendes Siqueira <rms-aps@hotmail.com>
+Date: Sat, 17 May 2025 09:40:06 -0300
+Subject: [PATCH] EntityPlayerNEW
+
+
+diff --git a/src/main/java/net/minecraft/server/EntityPlayer.java b/src/main/java/net/minecraft/server/EntityPlayer.java
+index 1ac1bde5..5bac1106 100644
+--- a/src/main/java/net/minecraft/server/EntityPlayer.java
++++ b/src/main/java/net/minecraft/server/EntityPlayer.java
+@@ -684,18 +684,32 @@ public class EntityPlayer extends EntityHuman implements ICrafting {
+ 
+         this.nextContainerCounter();
+         if (iinventory instanceof ITileEntityContainer) {
+-            this.playerConnection.sendPacket(new PacketPlayOutOpenWindow(this.containerCounter, ((ITileEntityContainer) iinventory).getContainerName(), iinventory.getScoreboardDisplayName(), iinventory.getSize()));
++            this.playerConnection.sendPacket(
++                    new PacketPlayOutOpenWindow(
++                            this.containerCounter,
++                            ((ITileEntityContainer) iinventory).getContainerName(),
++                            iinventory.getScoreboardDisplayName(),
++                            iinventory.getSize()
++                    )
++            );
+             this.activeContainer = container; // CraftBukkit
+         } else {
+             String windowType = "minecraft:container";
+             int size = iinventory.getSize();
+ 
+-            // Detectar se é o EnderChest e forçar 54 slots
++            // Verificar se é um InventoryEnderChest e usar seu tamanho real
+             if (iinventory instanceof InventoryEnderChest) {
+-                size = 54; // Força o cliente a abrir 6 linhas (6x9)
++                size = ((InventoryEnderChest) iinventory).getSize();
+             }
+ 
+-            this.playerConnection.sendPacket(new PacketPlayOutOpenWindow(this.containerCounter, windowType, iinventory.getScoreboardDisplayName(), size));
++            this.playerConnection.sendPacket(
++                    new PacketPlayOutOpenWindow(
++                            this.containerCounter,
++                            windowType,
++                            iinventory.getScoreboardDisplayName(),
++                            size
++                    )
++            );
+             this.activeContainer = container; // CraftBukkit
+         }
+ 
+-- 
+2.49.0.windows.1
+
